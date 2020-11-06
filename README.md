@@ -1,2 +1,2 @@
 # oare-todo-2
-Created with CodeSandbox
+Basic todo app created in CodeSandbox for interview process of OARE BYU job.
