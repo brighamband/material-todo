@@ -1,11 +1,9 @@
 {
-  "name": "react",
+  "homepage": "https://brighamband.github.io/material-todo",
+  "name": "material-todo",
   "version": "1.0.0",
-  "description": "React example starter project",
-  "keywords": [
-    "react",
-    "starter"
-  ],
+  "description": "A simple todo app which gets data from an API then uses Material UI for aesthetics.",
+  "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "@material-ui/core": "4.11.0",
@@ -15,9 +13,12 @@
     "react-scripts": "3.4.3"
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "typescript": "3.8.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
