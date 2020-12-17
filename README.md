@@ -1,4 +1,3 @@
-# oare-todo-2
-Basic todo app created in CodeSandbox for interview process of OARE BYU job.
+# material-todo
 
-See this in action at https://c4ui6.csb.app/
+[Check it out!](https://brighamband.github.io/material-todo/)
